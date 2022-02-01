@@ -90,7 +90,7 @@ const[showMore, setShowMore] = useState(false) // Show more//
 <div className='App'>
           {/* / / Show more// */}
         
-          <p className='description' > {showMore ? description : description.substring (0,100) + "....."}
+     <p className='description' > {showMore ? description : description.substring (0,100) + "....."}
      <button className='show' onClick={() => setShowMore(!showMore)}>{showMore? "Show less" : "Show more"} </button></p>
 </div>
 
