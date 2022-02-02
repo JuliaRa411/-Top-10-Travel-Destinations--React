@@ -66,7 +66,7 @@ const[showMore, setShowMore] = useState(false) // Show more//
       <img src={ logo } className='App-logo' alt='logo'/>
       <h1>Top {photos.length} Travel Destinations <br>
       </br> to Visit  in the World </h1>
-     
+   
 
     {photos.map((element => {
         const {id, destination, image, description} = element;
